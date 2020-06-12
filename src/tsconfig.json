@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "paths": { "*":[ "types/*" ], "@src/*": ["*"], "@component/*": ["components/*"] },
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve",
+    "sourceMap": false,
+    "types": ["vue"],
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "traceResolution": true
+  },
+  "exclude": [
+    "../node_modules/vuex/types/index.d.ts"
+  ]
+}

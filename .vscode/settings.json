@@ -1,0 +1,25 @@
+{
+  /** tab按键缩进 */
+  "editor.tabSize": 2,
+  /** 最长支持字符数*/
+  "editor.minimap.maxColumn": 150,
+  /** tab自动补全 */
+  "editor.tabCompletion": "on",
+  /** 默认格式化工具配置 */
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  /** end */
+}

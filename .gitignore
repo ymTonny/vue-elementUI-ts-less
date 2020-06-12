@@ -1,0 +1,17 @@
+node_modules
+/yarn.lock
+/dist
+yarn-error.log
+_test.*
+*._test.ts
+*._test.tsx
+*._test.js
+*._test.jsx
+*._test.vue
+*._test.svg
+*._test.json
+*._test.config
+package-lock.json
+/conf/_config.json
+/.catch
+*.mock

@@ -1,0 +1,4 @@
+{
+  "presets": ["@vue/babel-preset-jsx", "@babel/preset-env"],
+  "plugins": ["@babel/plugin-syntax-dynamic-import", ["component", { "libraryName": "element-ui", "styleLibraryName": "theme-chalk" }]]
+}

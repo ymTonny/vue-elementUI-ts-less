@@ -1,0 +1,22 @@
+{
+	"vux": {
+		"prefix": "vux",
+		"body": [
+			"import Vue from 'vue';",
+			"import Component from 'vue-class-component';",
+			"",
+			"interface $1Props {}",
+			"",
+			"@Component",
+			"export default class $1 extends Vue {",
+			"  props!: $1Props;",
+			"",
+			"  protected render() {",
+			"    return <div>test</div>",
+			"  }",
+			"}",
+			""
+		],
+		"description": "vue tsx 代码片段"
+	}
+}
